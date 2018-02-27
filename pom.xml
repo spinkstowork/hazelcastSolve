@@ -1,0 +1,33 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sdp</groupId>
+    <artifactId>hzCodeChallenge</artifactId>
+    <version>0.1.0</version>
+
+    <name>Hazelcast code challenge SDP</name>
+    <description>Code challenge from Hazelcast</description>
+
+    <developers>
+        <developer>
+            <name>Scott D. Pinkston</name>
+            <email>spinkstowork at yahoo dot com</email>
+            <url>https://www.linkedin.com/in/scott-d-pinkston-4452a25</url>
+        </developer>
+    </developers>
+
+    <properties>
+        <hazelcast.version>3.9.3</hazelcast.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.hazelcast</groupId>
+            <artifactId>hazelcast-all</artifactId>
+            <version>${hazelcast.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>
