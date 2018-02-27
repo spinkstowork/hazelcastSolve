@@ -20,4 +20,4 @@ I think this is the stackoverflow thread:
 
 https://stackoverflow.com/questions/17182831/hazelcast-map-synchronization
 
-
+In older versions I believe atomicity was implicit by default.
